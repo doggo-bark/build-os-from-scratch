@@ -1,5 +1,5 @@
 # build-os-from-scratch
-bootsector, working with BIOS, ...
-entered 32-bit protected mode
-code with C, entered kernel main
-a simple screen driver (finished at handle_scrolling)
+Bootsector, working with BIOS, ...  
+Entered 32-bit protected mode.  
+Code with C, entered kernel main.  
+A simple screen driver (finished at handle_scrolling)  
