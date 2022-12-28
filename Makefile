@@ -17,6 +17,5 @@ kernel/kernel_entry.o:kernel/kernel_entry.asm
 %.bin:%.asm
 	nasm $< -f bin -o $@
 clean:
-	rm *.bin *.o os-image *.dis
-	rm kernel/*.o boot/*.bin drivers/*.o
+	rm kernel/*.o boot/*.bin drivers/*.o boot/*.o *.bin *.o os-image *.dis
 
